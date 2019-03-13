@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+  background-color: #000;
+  font-family: "Playbal", cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+
+  color: white;
+  text-align: center;
+}
+
+.tena {
+  font-family: "Francois One", sans-serif;
+}
+
+.length {
+  max-width: 8em;
+}
+
+.box {
+  border: 2px solid white;
+}
+
+.word {
+  text-transform: uppercase;
+  font-family: "Francois One", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.fullhide {
+  display: none;
+}
+
+.smile {
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  left: 2.8em;
+  top: .7em;
+  color: yellow;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .fullhide {
+    display: inline;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .smile {
+    display: none;
+  }
+
+  p {
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  p {
+    color: yellow;
+  }
+
+  .box {
+    border: 2px solid yellow;
+  }
+
+  .word {
+    color: white;
+  }
+
+  .smile {
+    display: none;
+  }
+
+  .length {
+    max-width: 20em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  p {
+    color: white;
+  }
+
+  .box {
+    border: 2px solid white;
+  }
+
+  .hide {
+    display: inline;
+  }
+
+  .word {
+    text-transform: lowercase;
+    font-family: "Playbal", cursive;
+
+  }
+
+  .smile {
+    display: none;
+  }
+
+}
