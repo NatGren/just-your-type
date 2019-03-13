@@ -1,7 +1,6 @@
 html {
   background-color: #000;
-  font-family: "Playbal", cursive;
-  background-color: black;
+  font-family: Playbal, cursive;
 }
 
 .text {
@@ -49,7 +48,6 @@ p {
   top: .7em;
   color: yellow;
   font-family: "Open Sans", sans-serif;
-
 }
 
 @media only screen and (min-width: 25em) {
@@ -111,8 +109,7 @@ p {
   }
 
   .word {
-    font-family: "Playbal", cursive;
-
+    font-family: Playbal, cursive;
   }
 
   .smile {
