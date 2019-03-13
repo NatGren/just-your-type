@@ -1,13 +1,9 @@
 html {
-  box-sizing: border-box;
   background-color: #000;
   font-family: "Playbal", cursive;
   background-color: black;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 .text {
   position: absolute;
   top: 50%;
