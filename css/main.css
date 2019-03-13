@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #000;
   font-family: "Playbal", cursive;
+  background-color: black;
 }
 
 *, *::before, *::after {
@@ -33,7 +34,6 @@ p {
 }
 
 .word {
-  text-transform: uppercase;
   font-family: "Francois One", sans-serif;
 }
 
@@ -115,7 +115,6 @@ p {
   }
 
   .word {
-    text-transform: lowercase;
     font-family: "Playbal", cursive;
 
   }
